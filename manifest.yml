@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-ateruya
+  host: aplicacao-de-teste-ateruya
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-ateruya-AdvancedMobileAccess
+  - aplicacao-de-teste-ateruya-imfpush
+  - aplicacao-de-teste-ateruya-cloudantNoSQLDB
